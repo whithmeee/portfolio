@@ -16,11 +16,7 @@ const Works = () => {
                     </div>
                     <div className="pro__text">
                         <h3>Car Rental</h3>
-                        <p>
-                            A car rental website is an online platform that allows users to rent
-                            cars for personal or business use. The website provides an interface for
-                            searching, comparing, and reserving cars.
-                        </p>
+                        <p>---</p>
                         <div className="stack">
                             <p>React</p>
                             <p>SCSS</p>
