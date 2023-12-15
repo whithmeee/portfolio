@@ -139,8 +139,8 @@
 
 @media screen and (max-width: 576px) {
     .projects-grid .pro__img {
-        width: 25rem;
-        max-height: 298px;
+        width: 18rem;
+        max-height: 214px;
     }
 
     .projects-grid .pro__text {
