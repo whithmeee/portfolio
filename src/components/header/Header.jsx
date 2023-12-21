@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 import './Header.css';
 
 const Header = () => {
@@ -14,12 +14,11 @@ const Header = () => {
                     <ul className="nav__list grid">
                         <li className="nav__item">
                             <Link
-                                activeClass="active"
                                 to="home"
                                 spy={true}
                                 smooth={true}
-                                offset={-70} // регулируйте смещение, если это необходимо
-                                duration={500} // длительность анимации в миллисекундах
+                                offset={-70}
+                                duration={500}
                                 className="nav__link">
                                 <i className="uil uil-nav__icon">Home</i>
                             </Link>
@@ -31,8 +30,8 @@ const Header = () => {
                                 to="about"
                                 spy={true}
                                 smooth={true}
-                                offset={-70} // регулируйте смещение, если это необходимо
-                                duration={500} // длительность анимации в миллисекундах
+                                offset={-70}
+                                duration={500}
                                 className="nav__link">
                                 <i className="uil uil-nav__icon">About</i>
                             </Link>
@@ -40,12 +39,11 @@ const Header = () => {
 
                         <li className="nav__item">
                             <Link
-                                activeClass="active"
                                 to="skills"
                                 spy={true}
                                 smooth={true}
-                                offset={-70} // регулируйте смещение, если это необходимо
-                                duration={500} // длительность анимации в миллисекундах
+                                offset={-70}
+                                duration={500}
                                 className="nav__link">
                                 <i className="uil uil-nav__icon">Skills</i>
                             </Link>
@@ -53,12 +51,11 @@ const Header = () => {
 
                         <li className="nav__item">
                             <Link
-                                activeClass="active"
                                 to="project"
                                 spy={true}
                                 smooth={true}
-                                offset={-70} // регулируйте смещение, если это необходимо
-                                duration={500} // длительность анимации в миллисекундах
+                                offset={-70}
+                                duration={500}
                                 className="nav__link">
                                 <i className="uil uil-nav__icon">Projects</i>
                             </Link>
@@ -66,12 +63,11 @@ const Header = () => {
 
                         <li className="nav__item">
                             <Link
-                                activeClass="active"
                                 to="contact"
                                 spy={true}
                                 smooth={true}
-                                offset={-70} // регулируйте смещение, если это необходимо
-                                duration={500} // длительность анимации в миллисекундах
+                                offset={-70}
+                                duration={500}
                                 className="nav__link">
                                 <i className="uil uil-nav__icon">Contact</i>
                             </Link>

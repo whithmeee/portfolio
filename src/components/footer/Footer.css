@@ -19,6 +19,7 @@
 
 .footer__link:hover {
     color: var(--title-color-dark);
+    cursor: pointer;
 }
 
 .footer__list {

@@ -113,6 +113,29 @@
     text-transform: none;
 }
 
+.links {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+
+.links > a {
+    color: #2d2e32;
+    font-size: 1.2rem;
+    font-weight: 500;
+    gap: 5px;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    transition: color 0.2s ease-in;
+}
+
+.links > a:hover {
+    color: blue;
+}
+
 @media screen and (max-width: 992px) {
     .projects-grid .pro {
         margin: 1rem;

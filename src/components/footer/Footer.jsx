@@ -3,6 +3,8 @@ import { FaGithub } from 'react-icons/fa';
 import { FaTelegram } from 'react-icons/fa';
 import { FaWhatsappSquare } from 'react-icons/fa';
 import { SiCodewars } from 'react-icons/si';
+
+import { Link } from 'react-scroll';
 import './Footer.css';
 
 const Footer = () => {
@@ -13,20 +15,38 @@ const Footer = () => {
 
                 <ul className="footer__list">
                     <li>
-                        <a href="#home" className="footer__link">
+                        <Link
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                            to="home"
+                            className="footer__link">
                             Home
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="#about" className="footer__link">
+                        <Link
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                            to="about"
+                            className="footer__link">
                             About
-                        </a>
+                        </Link>
                     </li>
 
                     <li>
-                        <a href="#project" className="footer__link">
+                        <Link
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                            to="project"
+                            className="footer__link">
                             Projects
-                        </a>
+                        </Link>
                     </li>
                 </ul>
 
