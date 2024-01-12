@@ -39,6 +39,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
     height: auto;
+    margin-bottom: 50px;
 }
 
 .projects-grid .pro__img {
@@ -57,7 +58,7 @@
 }
 
 .projects-grid .pro__img img:hover {
-    transform: translateY(-83%);
+    transform: translateY(-78%);
 }
 
 .projects-grid .pro__text {
