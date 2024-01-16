@@ -5,9 +5,9 @@ const ProjectOne = () => {
     return (
         <div className="pro pro__1 undefined">
             <div className="pro__img">
-                <a href="#">
+                <div>
                     <img src={Nike} alt="#" />
-                </a>
+                </div>
             </div>
             <div className="pro__text">
                 <h3>Nike Landing Page</h3>

@@ -5,9 +5,9 @@ const ProjectTwo = () => {
     return (
         <div className="pro pro__1 undefined">
             <div className="pro__img">
-                <a href="#">
+                <div>
                     <img src={ProjectTwoImg} alt="#" />
-                </a>
+                </div>
             </div>
             <div className="pro__text">
                 <h3>Budss Landing Page</h3>
