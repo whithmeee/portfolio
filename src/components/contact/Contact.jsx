@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { MdOutlineMailOutline } from 'react-icons/md';
 import { FaTelegram } from 'react-icons/fa';
 import { IoIosArrowRoundForward } from 'react-icons/io';
@@ -6,13 +6,15 @@ import { IoIosArrowRoundForward } from 'react-icons/io';
 import emailjs from '@emailjs/browser';
 import './Contact.css';
 
+const INIT_STATE = {
+    name: true,
+    email: true,
+    offers: true,
+};
+
 const Contact = ({ setIsOpen }) => {
     const form = useRef();
-    const [formValidate, setFormValidate] = useState({
-        name: true,
-        email: true,
-        offers: true,
-    });
+    const [formValidate, setFormValidate] = useState(INIT_STATE);
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -46,6 +48,18 @@ const Contact = ({ setIsOpen }) => {
         setIsOpen(true);
         e.target.reset();
     };
+
+    useEffect(() => {
+        let clearId = setTimeout(() => {
+            if (!formValidate.name || !formValidate.email || !formValidate.offers) {
+                setFormValidate(INIT_STATE);
+            }
+        }, 2000);
+
+        return () => {
+            clearTimeout(clearId);
+        };
+    }, [formValidate]);
 
     return (
         <>
