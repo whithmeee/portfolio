@@ -1,7 +1,8 @@
-import React from 'react';
-import './Works.css';
-import ProjectTwo from './ProjectTwo';
-import ProjectOne from './ProjectOne';
+import React from "react";
+import "./Works.css";
+import ProjectTwo from "./ProjectTwo";
+import ProjectOne from "./ProjectOne";
+import ProjectThree from "./ProjectThree";
 
 const Works = () => {
     return (
@@ -11,6 +12,7 @@ const Works = () => {
             <div className="projects-grid">
                 <ProjectOne />
                 <ProjectTwo />
+                <ProjectThree />
             </div>
         </section>
     );

@@ -21,7 +21,7 @@
 }
 
 .projects-grid {
-    max-width: 968px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -56,14 +56,8 @@
     width: 100%;
 }
 
-.projects-grid .pro__img img {
-    height: auto;
-    width: 100%;
-    transition: transform 10s ease-in-out 0s;
-}
-
-.projects-grid .pro__img img:hover {
-    transform: translateY(-78%);
+.projects-grid .pro__img > .sneakers-img:hover {
+    transform: translateY(0);
 }
 
 .projects-grid .pro__text {
@@ -98,6 +92,8 @@
 
 .stack {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     gap: 1rem;
     justify-content: center;
     margin-top: 1rem;
@@ -112,12 +108,23 @@
     padding: 1rem 1.3rem;
 }
 
+.stack > p:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
 .projects-grid .pro__text p {
     color: #767676;
     font-size: 1.2rem;
     font-weight: 500;
     text-align: center;
     text-transform: none;
+}
+
+.pro__ps {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 14px;
 }
 
 .links {
