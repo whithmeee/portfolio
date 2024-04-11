@@ -6,7 +6,13 @@ const ProjectTwo = () => {
         <div className="pro pro__1 undefined">
             <div className="pro__img">
                 <div>
-                    <img src={ProjectTwoImg} alt="#" />
+                    <a
+                        href="https://statuesque-cascaron-6c032f.netlify.app/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img src={ProjectTwoImg} alt="#" />
+                    </a>
                 </div>
             </div>
             <div className="pro__text">

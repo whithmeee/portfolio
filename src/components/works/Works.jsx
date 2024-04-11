@@ -10,9 +10,9 @@ const Works = () => {
             <h2 className="works__title">Projects</h2>
 
             <div className="projects-grid">
+                <ProjectThree />
                 <ProjectOne />
                 <ProjectTwo />
-                <ProjectThree />
             </div>
         </section>
     );

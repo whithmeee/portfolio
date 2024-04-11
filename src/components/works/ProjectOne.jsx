@@ -6,7 +6,12 @@ const ProjectOne = () => {
         <div className="pro pro__1 undefined">
             <div className="pro__img">
                 <div>
-                    <img src={Nike} alt="#" />
+                    <a
+                        href="https://dainty-sunshine-31ec76.netlify.app"
+                        target="blank"
+                    >
+                        <img src={Nike} alt="#" />
+                    </a>
                 </div>
             </div>
             <div className="pro__text">

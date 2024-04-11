@@ -5,11 +5,16 @@ const ProjectThree = () => {
         <div className="pro pro__1 undefined">
             <div className="pro__img">
                 <div>
-                    <img
-                        className="sneakers-img"
-                        src={sneakers}
-                        alt="sneakers"
-                    />
+                    <a
+                        href="https://react-sneakers-shop.netlify.app/"
+                        target="blank"
+                    >
+                        <img
+                            className="sneakers-img"
+                            src={sneakers}
+                            alt="sneakers"
+                        />
+                    </a>
                 </div>
             </div>
             <div className="pro__text">
