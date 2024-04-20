@@ -3,6 +3,7 @@ import "./Works.css";
 import ProjectTwo from "./ProjectTwo";
 import ProjectOne from "./ProjectOne";
 import ProjectThree from "./ProjectThree";
+import ProjectFour from "./ProjectFour";
 
 const Works = () => {
     return (
@@ -11,6 +12,7 @@ const Works = () => {
 
             <div className="projects-grid">
                 <ProjectThree />
+                <ProjectFour />
                 <ProjectOne />
                 <ProjectTwo />
             </div>
